@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81685A4F1F8D086A00784EF1 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81685A4E1F8D086A00784EF1 /* SegmentViewController.swift */; };
+		81821CC61F8D12A900AE1D96 /* Translations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81821CC51F8D12A900AE1D96 /* Translations.swift */; };
+		81821CC81F8E080B00AE1D96 /* IBMcalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81821CC71F8E080B00AE1D96 /* IBMcalculateViewController.swift */; };
 		81BC6F311F8CB39D00C2B061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F301F8CB39D00C2B061 /* AppDelegate.swift */; };
-		81BC6F331F8CB39D00C2B061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F321F8CB39D00C2B061 /* ViewController.swift */; };
-		81BC6F361F8CB39D00C2B061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BC6F341F8CB39D00C2B061 /* Main.storyboard */; };
+		81BC6F331F8CB39D00C2B061 /* LetSpeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F321F8CB39D00C2B061 /* LetSpeakViewController.swift */; };
+		81BC6F361F8CB39D00C2B061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BC6F341F8CB39D00C2B061 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		81BC6F381F8CB39D00C2B061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BC6F371F8CB39D00C2B061 /* Assets.xcassets */; };
 		81BC6F3B1F8CB39D00C2B061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BC6F391F8CB39D00C2B061 /* LaunchScreen.storyboard */; };
 		81BC6F461F8CB39E00C2B061 /* KataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F451F8CB39E00C2B061 /* KataAppTests.swift */; };
 		81BC6F511F8CB39E00C2B061 /* KataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F501F8CB39E00C2B061 /* KataAppUITests.swift */; };
+		81BC6F631F8CC32600C2B061 /* ToNatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F621F8CC32600C2B061 /* ToNatoViewController.swift */; };
+		81BC6F651F8CC37C00C2B061 /* DisemVowelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC6F641F8CC37C00C2B061 /* DisemVowelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81685A4E1F8D086A00784EF1 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		81821CC51F8D12A900AE1D96 /* Translations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translations.swift; sourceTree = "<group>"; };
+		81821CC71F8E080B00AE1D96 /* IBMcalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBMcalculateViewController.swift; sourceTree = "<group>"; };
 		81BC6F2D1F8CB39D00C2B061 /* KataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BC6F301F8CB39D00C2B061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81BC6F321F8CB39D00C2B061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BC6F321F8CB39D00C2B061 /* LetSpeakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetSpeakViewController.swift; sourceTree = "<group>"; };
 		81BC6F351F8CB39D00C2B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81BC6F371F8CB39D00C2B061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81BC6F3A1F8CB39D00C2B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		81BC6F4C1F8CB39E00C2B061 /* KataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BC6F501F8CB39E00C2B061 /* KataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataAppUITests.swift; sourceTree = "<group>"; };
 		81BC6F521F8CB39E00C2B061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BC6F621F8CC32600C2B061 /* ToNatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToNatoViewController.swift; sourceTree = "<group>"; };
+		81BC6F641F8CC37C00C2B061 /* DisemVowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisemVowelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				81BC6F301F8CB39D00C2B061 /* AppDelegate.swift */,
-				81BC6F321F8CB39D00C2B061 /* ViewController.swift */,
+				81BC6F321F8CB39D00C2B061 /* LetSpeakViewController.swift */,
+				81BC6F621F8CC32600C2B061 /* ToNatoViewController.swift */,
 				81BC6F341F8CB39D00C2B061 /* Main.storyboard */,
+				81821CC71F8E080B00AE1D96 /* IBMcalculateViewController.swift */,
+				81BC6F641F8CC37C00C2B061 /* DisemVowelViewController.swift */,
+				81685A4E1F8D086A00784EF1 /* SegmentViewController.swift */,
+				81821CC51F8D12A900AE1D96 /* Translations.swift */,
 				81BC6F371F8CB39D00C2B061 /* Assets.xcassets */,
 				81BC6F391F8CB39D00C2B061 /* LaunchScreen.storyboard */,
 				81BC6F3C1F8CB39D00C2B061 /* Info.plist */,
@@ -187,6 +202,9 @@
 		81BC6F251F8CB39D00C2B061 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Trym;
@@ -259,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81BC6F331F8CB39D00C2B061 /* ViewController.swift in Sources */,
+				81BC6F631F8CC32600C2B061 /* ToNatoViewController.swift in Sources */,
+				81BC6F331F8CB39D00C2B061 /* LetSpeakViewController.swift in Sources */,
 				81BC6F311F8CB39D00C2B061 /* AppDelegate.swift in Sources */,
+				81821CC61F8D12A900AE1D96 /* Translations.swift in Sources */,
+				81BC6F651F8CC37C00C2B061 /* DisemVowelViewController.swift in Sources */,
+				81821CC81F8E080B00AE1D96 /* IBMcalculateViewController.swift in Sources */,
+				81685A4F1F8D086A00784EF1 /* SegmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
